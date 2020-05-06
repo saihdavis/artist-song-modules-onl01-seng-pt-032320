@@ -43,7 +43,9 @@ class Artist
 #  def to_param
 #    name.downcase.gsub(' ', '-')
 #  end
-endrequire 'pry'
+end
+
+require 'pry'
 
 class Artist
   attr_accessor :name
